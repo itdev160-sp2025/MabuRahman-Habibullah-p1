@@ -1,0 +1,329 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+}
+
+header .search-container {
+    margin-top: 20px;
+}
+
+header #searchInput {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+header #searchButton {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #23527c;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Banner Styles */
+
+#banner {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+#banner img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#banner .banner-text {
+    margin-top: 20px;
+}
+
+#banner .button {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Main Styles */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+main section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    margin-bottom: 10px;
+}
+
+/* Featured Products Styles */
+
+#featured-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#featured-products .products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#featured-products .product {
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+#featured-products .product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#featured-products .product h3 {
+    margin-bottom: 10px;
+}
+
+#featured-products .product p {
+    margin-bottom: 10px;
+}
+
+#featured-products .button {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Categories Styles */
+
+#printer-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#printer-categories .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#printer-categories .category {
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+#printer-categories .category img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#printer-categories .category h3 {
+    margin-bottom: 10px;
+}
+
+#printer-categories .category p {
+    margin-bottom: 10px;
+}
+
+/* Customer Reviews Styles */
+
+#customer-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#customer-reviews .reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#customer-reviews blockquote {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+#customer-reviews footer {
+    font-size: 14px;
+    color: #666;
+}
+
+/* FAQ Styles */
+
+#frequently-asked-questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#frequently-asked-questions dl {
+    margin: 20px;
+}
+
+#frequently-asked-questions dt {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#frequently-asked-questions dd {
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer #about-us,
+#quick-links,
+#contact-us {
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer .copyright {
+    margin-top: 20px;
+}
